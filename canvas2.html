@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Canvas2</title>
+</head>
+<body>
+
+	<form action="#">
+		<input id="name" type="text" placeholder="Enter yours name here">
+		<input id="password" type="password" placeholder="Enter yours password here">
+		<input id="submit" type="submit" value="Submit" onclick="sum();">
+	</form>
+	
+
+
+</body>
+</html>
+<script>
+	function sum(){
+	var a= document.getElementById("name").value;
+	var b= document.getElementById("password").value;
+	var c="Your name is "+a;
+	var d="Your password is "+b;
+	console.log(c);
+	console.log(d);
+}
+
+
+
+</script>
+
+
+
+<style>
+	form{
+		max-width: 600px;
+		margin: 0 auto;
+	}
+	input{
+		width: 100%;
+		height: 40px;
+		border-radius: 5px;
+		border:1px solid #505050;
+		padding: 5px 20px;
+		display: block;
+		margin: 0 0 10px;
+		box-sizing: border-box;
+	}
+</style>
